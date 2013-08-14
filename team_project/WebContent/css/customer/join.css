@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0 auto;
+}
+
+.header {
+  height: 71px;
+  background: #f1f1f1;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  }
+  
+
+  .header .signin,
+  .header .signup {
+  margin: 28px 0 0;
+  float: right;
+  font-weight: bold;
+  }
+  
+  .header .signin-button,
+  .header .signup-button {
+  margin: 22px 22px 0 0;
+  float: right;
+  }
+  .header .signin-text,
+  .header .signup-text {
+  margin: 22px 0 0;
+  float: left;
+  font-family:"나눔고딕";
+  font-size:34px;
+  
+  }
+  .header .signin-button a {
+  font-size: 13px;
+  font-weight: normal;
+  }
+  .header .signup-button a {
+  position: relative;
+  top: -1px;
+  margin: 0 0 0 1em;
+  }
+  
+  /* 회원가입 폼 */
+fieldset, legend{
+	 background: #fff;
+}
+fieldset{
+	font: larger "나눔고딕";
+}
+
+  .sidebar-right {
+	float: right;
+	width: 350px;
+	background: #f1f1f1;
+	padding-bottom: 10px;
+	margin-right:5%;
+	margin-top:5%;
+	margin-bottom:10%;
+	
+}
+label{
+	margin-top:-0.5em;
+	font:bold 15px/100% "나눔고딕";
+	float:left;
+	width: 12em;
+}
+.sidebar-right input{
+	background:#fff;
+	width:200px;
+	
+}
+
+
+
+.sidebar-right .userinfo1 input:hover, .userinfo2 input:hover{
+	border-color:#06F;
+	border:1;
+
+	
+}
+.sidebar-right .gender_d, .grade_d {
+	clear:both;
+	font: 15px "나눔고딕";
+	margin-left:5%;
+}
+
+.sidebar-right .userinfo1 .gender_d input, .grade_d input{
+	width:20px;
+	
+}
+
+.e_div{
+	width:100%;
+	
+}
+#email{
+	width:100px;
+	float:left;
+
+	
+	
+}
+#email_s{
+	width:100px;
+	float:none;
+	
+	
+}
+.sidebar-right #email_o{
+	width:80px;
+	float: right;
+	
+	
+	
+}
+.sidebar-right select{
+	width:100px;
+
+}
+.sidebar-right .zipcode_d{
+	
+	clear:both;
+}
+.sidebar-right .zipcode_d> input{
+	width:50px;
+	text-align:center;
+}
+
+.sidebar-right .useraddr_d> input{
+	width:300px;
+}
+
+.sidebar-right .sign-up-d {
+	
+	text-align:center;
+}
+
+
+/* 좌측 영역 */ 
+.sidebar-left{
+	float: left;
+	width: 450px;
+	padding-bottom: 10px;
+	margin-left:10%;
+	margin-top:5%;
+	margin-bottom:10%;
+}
+
+.sidebar-left .content .content_head{
+	font:bolder 30px/100% "나눔고딕";
+	color: red;
+}
+
+.sidebar-left .content .content_body{
+	font:bolder 20px/100% "나눔고딕";
+	color: #006;
+}
+
+.sidebar-left .content .content_foot{
+	font:bolder 15px/100% "나눔고딕";
+	color: #333;
+}
+
+
+  
+  
+  
+  /* 버튼 */
+ .signin-button a {
+font-size: 13px;
+font-weight: normal;
+text-decoration:none;
+}
+.g-button:hover {
+border: 1px solid #c6c6c6;
+color: #333;
+text-decoration: none;
+-webkit-transition: all 0.0s;
+-moz-transition: all 0.0s;
+-ms-transition: all 0.0s;
+-o-transition: all 0.0s;
+transition: all 0.0s;
+background-color: #f8f8f8;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#f8f8f8),to(#f1f1f1));
+background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+background-image: -ms-linear-gradient(top,#f8f8f8,#f1f1f1);
+background-image: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
+background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+  .g-button:active {
+  background-color: #f6f6f6;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#f6f6f6),to(#f1f1f1));
+  background-image: -webkit-linear-gradient(top,#f6f6f6,#f1f1f1);
+  background-image: -moz-linear-gradient(top,#f6f6f6,#f1f1f1);
+  background-image: -ms-linear-gradient(top,#f6f6f6,#f1f1f1);
+  background-image: -o-linear-gradient(top,#f6f6f6,#f1f1f1);
+  background-image: linear-gradient(top,#f6f6f6,#f1f1f1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  }
+
+  .g-button {
+display: inline-block;
+min-width: 46px;
+text-align: center;
+color: #444;
+font-size: 11px;
+font-weight: bold;
+height: 27px;
+padding: 0 8px;
+line-height: 27px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-transition: all 0.218s;
+-moz-transition: all 0.218s;
+-ms-transition: all 0.218s;
+-o-transition: all 0.218s;
+transition: all 0.218s;
+border: 1px solid #dcdcdc;
+background-color: #f5f5f5;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+cursor: default;
+}
+
+/* 전송버튼 */
+
+#sign-up {
+height:30px;
+width: 100px;
+font:bold 14px/100% "나눔고딕";
+
+
+
+border: 1px solid #3079ed;
+color: #fff;
+text-shadow: 0 1px rgba(0,0,0,0.1);
+background-color: #4d90fe;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#4787ed));
+background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+background-image: linear-gradient(top,#4d90fe,#4787ed);
+}
+
+#sign-up:hover {
+border: 1px solid #2f5bb7;
+color: #fff;
+text-shadow: 0 1px rgba(0,0,0,0.3);
+background-color: #357ae8;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#357ae8));
+background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+background-image: -moz-linear-gradient(top,#4d90fe,#357ae8);
+background-image: -ms-linear-gradient(top,#4d90fe,#357ae8);
+background-image: -o-linear-gradient(top,#4d90fe,#357ae8);
+background-image: linear-gradient(top,#4d90fe,#357ae8);
+}
+
+#sign-up:active {
+background-color: #357ae8;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#357ae8));
+background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+background-image: -moz-linear-gradient(top,#4d90fe,#357ae8);
+background-image: -ms-linear-gradient(top,#4d90fe,#357ae8);
+background-image: -o-linear-gradient(top,#4d90fe,#357ae8);
+background-image: linear-gradient(top,#4d90fe,#357ae8);
+-webkit-box-shadow: inset 0 1px 2px rgb	a(0,0,0,0.3);
+-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+}

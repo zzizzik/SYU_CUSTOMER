@@ -1,0 +1,219 @@
+@CHARSET "EUC-KR";
+.wrap {
+	width: 1350px;
+	margin: 0 auto;
+}
+.header {
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	margin: 0 auto;
+	background-color:white;
+}
+.headspace{
+	height: 10px;
+}
+.images .logo {
+	margin-top: 10px;
+	text-align: center;
+}
+.images{
+	margin-top:80px;
+}	
+
+.right{
+	width:20%;
+	height:740px;
+	float:right;
+	background-color:yellow;
+}
+
+.content {
+	width: 80%;
+	min-height: 740px;
+	float:left;
+	background-color:white;
+}
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color:white;
+	clear:both;
+	color:#FFB700;
+	font-size:15px;
+}
+/* 나중에 : margin이 안돼
+.footer .foot{
+	text-align: center;
+	margin:0 auto;
+	background-color:red;
+	
+}
+.footer .a{
+	color:#FFB700;
+}
+*/
+.id_pw {
+	font: bold 12px;
+	width: 100px; height: 20px; color: rgb(75, 75, 75);
+	 font-size-adjust: none; font-stretch: normal;
+	  background-color: rgb(255, 255, 255); valign: middle;
+}
+.loginform{
+	float:left;
+	font-weight: bolder;
+	font-size: 15px;
+	font-family: '맑은 고딕', cursive;
+	/*border:3pt outset #FFB700; 테두리*/
+}
+.search{
+	width:250px;
+	height:50px;
+	margin-top:10px;
+	float:left;
+	text-align:center;
+	background-color:;
+}
+
+.hotsearch{
+	width:300px;
+	height:50px;
+	margin-top:10px;
+	float:left;
+	background-color:;
+}
+
+
+
+/* 메뉴탭 */
+body,div,ul,li {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none
+}
+a.menua {
+	text-decoration: none
+}
+.menu {
+	width: 70%;
+	height: 40px;
+	margin-left: 100px;
+	float:left;
+}
+
+/* 메인메뉴 영역 */
+.menu>ul {
+	width: 620px;
+	height: 30px;
+	padding: 0px 0 0 0px;
+}
+
+.menu>ul>li {
+	float: left;
+	width: 100px;
+	height: 30px;
+	margin-right: 50px;
+	position: relative;
+}
+
+.menu>ul>li>a {
+	display: inline;
+	width: 200px;
+	height: 35px;
+	font-weight: bolder;
+	font-size: 25px;
+	font-family: 'Bad Script', cursive;
+	text-align: center;
+	color: #FFB700;
+
+}
+
+.menu ul li a:hover {
+	color: #f8874f;
+}
+
+/* 서브메뉴 영역*/
+.menu ul ul {
+	display: none
+}
+
+.menu>ul>li:hover ul {
+	display: block;
+	width: 100px;
+	height: 25px;
+	position: absolute;
+	left: 0;
+	top: 30px;
+}
+
+.menu li li {
+	width: 100px;
+	height: 25px;
+	text-align: center;
+}
+
+.menu li li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 15px;
+	font-family: 'Bad Script', cursive;
+	color:#FFB700;
+}
+
+.menu li li a:hover {
+	color: #FF815E;
+	background: none;
+}
+
+/*커뮤니티 게시판*/
+.subfont {
+ 	font-weight: bolder;
+	font-size: 25px;
+	font-family: 'Bad Script', cursive;
+  	color:#FFB700;
+}
+
+
+.button {
+	-moz-box-shadow:inset 0px 0px 0px 0px #f2f2f2;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #f2f2f2;
+	box-shadow:inset 0px 0px 0px 0px #f2f2f2;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #edf7c1), color-stop(1, #edf7c1) );
+	background:-moz-linear-gradient( center top, #edf7c1 5%, #edf7c1 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#edf7c1', endColorstr='#edf7c1');
+	background-color:#edf7c1;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #f78e0d;
+	display:inline-block;
+	color:#f78e0d;
+	font-family:Comic Sans MS;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #899144;
+}.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #edf7c1), color-stop(1, #edf7c1) );
+	background:-moz-linear-gradient( center top, #edf7c1 5%, #edf7c1 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#edf7c1', endColorstr='#edf7c1');
+	background-color:#edf7c1;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+
+
+
+
+
+
