@@ -36,6 +36,7 @@ public class CustomerManager implements Serializable {
 		}
 	}
 	
+	
 	/** 로깅 검출 메서드 */
 	public CustomerDTO loginCheck(String userId, String userPw){
 		return dao.loginCheck(userId,userPw);	//boolean return

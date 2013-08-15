@@ -23,6 +23,7 @@ body {
 	<div class="wrap">
 		<!-- 헤더영역 -->
 		<div class="header">
+		
 			<jsp:include page="/piece/header.jsp" />
 		</div>
 		<div class="headspace"></div>
