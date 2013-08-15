@@ -111,7 +111,8 @@
 				<input name="searchmenu" type="text" /> &nbsp;<a href='#' class='button' >검색</a>
 			</div>
 		<!-- 인기검색어 -->
-			<div class="hotsearch">
+			<div class="hotsearch" style="background-color:#FAED7D">
+			존나안바껴
 				<table border="0" align="left" width="250px">
 					<tr>
 						<td width="140px">
