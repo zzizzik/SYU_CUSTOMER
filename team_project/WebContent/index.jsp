@@ -18,19 +18,19 @@ body {
 </style>
 <!--  font -->
 <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
-<!-- �̹��� �����ִ� �ڹٽ�ũ��Ʈ -->
+<!-- 이미지 보여주는 자바스크립트 -->
 <script type="text/javascript"
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<!-- �̹��� �̵� �ð� -->
+<!-- 이미지 이동 시간 -->
 <script type="text/javascript" src="js/main/jquery.timers-1.2.js"></script>
 <script type="text/javascript" src="js/main/jquery.galleryview-3.0-dev.js"></script>
 <script type="text/javascript" src="js/main/main.js"></script>
 </head>
 
 <body style="overflow-y: scroll; overflow-x: auto;">
-	<!--  ��ü���� -->
+	<!--  전체영역 -->
 	<div class="wrap">
-		<!-- ������� -->
+		<!-- 헤더영역 -->
 		<div class="header">
 			<jsp:include page="piece/header.jsp" />
 		</div>
@@ -38,22 +38,22 @@ body {
 		</div>
 		
 	
-		<!-- ������ �޴����� : �α��� �˻� �α�˻��� -->
+		<!-- 오른쪽 메뉴영역 : 로그인 검색 인기검색어 -->
 		<div class="right">
 			<jsp:include page="piece/right.jsp"/>
 		</div>
 
 
-		<!-- �ٵ𿵿� -->
+		<!-- 바디영역 -->
 		<div class="content">
-			<!-- ����Ʈ�丮 ����ֱ� -->
+			<!-- 베스트요리 띄워주기 -->
 			<div class="images">
 				<table border="0" align="center" width="90%">
 					<tr>
 						<td colspan="3" align="center">
 							<ul id="myGallery">
 								<li><img data-frame="images/main/main.jpg" src="images/main/main.jpg"
-									title="Best1" data-description="�����Ľ�Ÿ" />
+									title="Best1" data-description="빠네파스타" />
 								<li><img data-frame="images/main/main2.jpg" src="images/main/main2.jpg"
 									title="Best2" />
 								<li><img data-frame="images/main/main3.jpg" src="images/main/main3.jpg"
@@ -68,7 +68,7 @@ body {
 					<tr style='height: 35px;'>
 						<td>&nbsp;</td>
 					</tr>
-					<!-- Ŀ�´�Ƽ �Խ��� ��� -->
+					<!-- 커뮤니티 게시판 출력 -->
 					<tr align="center">
 						<td>
 							<table border="0" width="280px">
@@ -79,7 +79,7 @@ body {
 									<td><img src="images/main/fork.png"></td>
 								</tr>
 								<tr>
-									<td><a href="#">���⿡ �ֽű��� �ۿðſ���</a></td>
+									<td><a href="#">여기에 최신글을 퍼올거예요</a></td>
 								</tr>
 							</table>
 						</td>
@@ -92,7 +92,7 @@ body {
 									<td><img src="images/main/shaker.png"></td>
 								</tr>
 								<tr>
-									<td><a href="#">���⿡ �ֽű��� �ۿðſ���</a></td>
+									<td><a href="#">여기에 최신글을 퍼올거예요</a></td>
 								</tr>
 							</table>
 						</td>
@@ -105,7 +105,7 @@ body {
 									<td><img src="images/main/spoon.png"></td>
 								</tr>
 								<tr>
-									<td><a href="#">���⿡ �ֽű��� �ۿðſ���</a></td>
+									<td><a href="#">여기에 최신글을 퍼올거예요</a></td>
 								</tr>
 							</table>
 						</td>
@@ -113,7 +113,7 @@ body {
 				</table>
 			</div>
 		</div>
-		<!-- footer���� -->
+		<!-- footer영역 -->
 		<div class="footer">
 			<div class="foot" align="center">
 				<jsp:include page="piece/footer.jsp"/>

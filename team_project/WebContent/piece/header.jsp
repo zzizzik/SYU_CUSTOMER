@@ -12,8 +12,8 @@
 	<table border="0" width="1350px">
 		<tr>
 			<td rowspan="2"><div style="margin-top: 20px;">
-					<a href="<%=CONTEXT_NAME%>/index.jsp" >
-					<img src="<%=CONTEXT_NAME%>/images/main/syorry3.png" class="logo" border="0"></a>
+					<a style="border:5px;" href="<%=CONTEXT_NAME%>/index.jsp" >
+					<img style="border:5px;" src="<%=CONTEXT_NAME%>/images/main/syorry3.png" class="logo" border="0"></a>
 				</div></td>
 		</tr>
 		<!-- ¸Þ´ºÅÇ -->
